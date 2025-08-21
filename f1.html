@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🍊 My Profile</title>
+  <link rel="stylesheet" href="f1.css"/>
+</head>
+<body>
+
+  <!-- 🔶 Animated Orange Background + Photos (BEHIND EVERYTHING) -->
+  <div id="bg-layer" aria-hidden="true">
+    <div id="orange-field"></div>
+
+    <!-- วางรูป p1 p3 p4 ตามลำดับ พร้อมพารัลแลกซ์เบา ๆ -->
+    <div id="photo-field">
+      <img class="bg-photo depth-3" src="p1.jpg" alt="p1"/>
+      <img class="bg-photo depth-2" src="p3.jpg" alt="p3"/>
+      <img class="bg-photo depth-1" src="p4.jpg" alt="p4"/>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">🍊 My Profile</div>
+      <div class="menu">
+        <a href="About.html">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="gpic">Picture Game</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="ค้นหาส่วนต่างๆ...">
+        <button id="search-btn">🔍</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>สวัสดี! ฉันคือ 🍊 [ภัทรพล ผันผาย]</h1>
+      <p>นักเรียนชั้นมัธยมศึกษาปีที่ 6 ชื่อเล่นชื่อยาม้าล</p>
+    </div>
+  </section>
+
+  <!-- Profile Sections -->
+  <main>
+    <div class="grid" id="main-grid">
+      <div class="card" id="about">
+        <h2>About Me</h2>
+        <p>ฉันชอบสร้างเว็บไซต์สวยๆ เล่นกีฬา เช่น ฟุตซอล อะไรแบบนี้</p>
+      </div>
+      <div class="card" id="skills">
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+      <div class="card" id="projects">
+        <h2>Projects</h2>
+        <p>ไม่มีโปรเจ็คอะไรเลย</p>
+      </div>
+      <div class="card" id="contact">
+        <h2>Contact</h2>
+        <p>Email: maunt.haha@gmail.com<br>Line/WhatsApp: 099-372-1549</p>
+      </div>
+    </div>
+
+    <!-- Search Results -->
+    <div id="search-results" class="search-results"></div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
