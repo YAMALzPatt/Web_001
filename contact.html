@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍊 Contact Me</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+</div>
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">🍊 My Profile</div>
+      <div class="menu">
+        <a href="f1.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>ติดต่อฉัน 🍊</h1>
+      <p>ส่งข้อความถึงฉันได้ง่าย ๆ ด้วยฟอร์มด้านล่าง</p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <main id="main-content">
+    <section class="contact-section">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>ข้อมูลการติดต่อ</h2>
+          <p>Email: <span id="email-text">maunt.haha@mail.com</span> <button id="copy-email" data-email="example@mail.com">Copy</button></p>
+          <p>Phone: 099-372-1549</p>
+          <p>ที่อยู่: ฉะเชิงเทรา ประเทศไทย</p>
+        </div>
+        <div class="contact-form">
+          <h2>ส่งข้อความ</h2>
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="ชื่อของคุณ" required>
+            <input type="email" id="email" placeholder="อีเมลของคุณ" required>
+            <textarea id="message" placeholder="ข้อความ..." rows="6" required></textarea>
+            <button type="submit">ส่งข้อความ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
